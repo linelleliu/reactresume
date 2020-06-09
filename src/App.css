@@ -1,38 +1,88 @@
-.App {
-  text-align: center;
+html,body,h1,h2,h3,h4,h5,h6, .name {
+  font-family: "Roboto", sans-serif
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: rgb(214, 214, 214);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.backgroundColor {
+  background-color: white;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.pageContainer {
+  position: relative;
+  margin: 0 auto;
+  width: 85%;
+  padding: 16px;
+}
+
+.container {
+  padding-right: 16px;
+  padding-left: 16px;
+  padding-top: 16px;
+}
+
+.container1 {
+  padding-right: 16px;
+  padding-left: 16px;
+ 
+}
+
+.columns {
+  margin-right: 16px;
+  color: rgb(0, 153, 153);
+  font-size: large;
+}
+
+.card {
+  box-shadow: 8px 8px 8px 8px #888888;
+}
+
+.extraLargeFont {
+  font-size: x-large;
+}
+
+.experienceTitle {
+  opacity: .6;
+}
+
+.grid {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.leftGrid, .rightGrid {
+  padding: 16px
+}
+
+.name {
+  padding: 16px;
+  background-color: teal;
+  color: white;
+  
+}
+
+.skillTitle {
+  color: rgb(95, 95, 95);
+  padding-bottom: 16px;
+}
+
+.textTeal {
+  color: teal
+}
+
+.footer {
+  background-color: teal;
+  text-align: center;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
+/* @media only screen and (min-width: 1000px) {
+  .pageContainer {
+      position: relative;
+      margin: 16px;
+      width: 1000px;
+      padding: 16px;
+  }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+} */
